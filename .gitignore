@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+benchmarks_ours/evals/e2e/results/
+*.log
+.DS_Store
+.*.swp
+*.tmp
