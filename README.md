@@ -1,6 +1,7 @@
 ## Anonymous Release
 
 This repository is a minimal anonymous code release for the long-context cache-reuse experiments in the submission.
+It is modified from the EPIC project: https://github.com/DerekHJH/epic.
 
 The release contains:
 
@@ -49,7 +50,7 @@ The LongBench-based datasets are loaded from the public Hugging Face dataset `TH
 The main experiment entry point is:
 
 ```bash
-bash benchmarks_ours/evals/e2e/run_test_v2.sh
+bash benchmarks_ours/evals/e2e/run.sh
 ```
 
 Useful environment variables:
@@ -69,7 +70,7 @@ MODEL=Qwen/Qwen3-4B \
 DATASET=2wikimqa \
 APPROACH=SSO \
 CUDA_VISIBLE_DEVICES=0 \
-bash benchmarks_ours/evals/e2e/run_test_v2.sh
+bash benchmarks_ours/evals/e2e/run.sh
 ```
 
 Results are written to:
