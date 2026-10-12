@@ -1,6 +1,5 @@
-## Anonymous Release
+## Code Release
 
-This repository is a minimal anonymous code release for the long-context cache-reuse experiments in the submission.
 It is modified from the EPIC project: https://github.com/DerekHJH/epic.
 
 The release contains:
